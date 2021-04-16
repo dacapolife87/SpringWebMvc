@@ -1,5 +1,6 @@
 package me.hjjang.webmvc;
 
+import me.hjjang.webmvc.web.springmvc.v1.SpringMemberFormControllerV1;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
@@ -18,5 +19,10 @@ public class WebmvcApplication {
 //    @Bean
 //    ViewResolver internalResourceViewResolver() {
 //        return new InternalResourceViewResolver("/WEB-INF/views/", ".jsp");
+//    }
+
+//    @Bean
+//    SpringMemberFormControllerV1 springMemberFormControllerV1() {
+//        return new SpringMemberFormControllerV1();
 //    }
 }
